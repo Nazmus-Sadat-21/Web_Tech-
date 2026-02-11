@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Lab5</title>
+
+    <meta name="description" content="Personal academic profile showcasing education, skills, and contact information using semantic HTML5.">
+    <meta name="keywords" content="HTML5, Academic Profile, Student, AIUB, Web Technologies">
+    <meta name="author" content="Nazmus Sadat">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Nazmus Sadat</h1>
+
+        <nav>
+            <a href="#About">About</a> |
+            <a href="#education">Education</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+  
+    <main>
+
+        
+        <section id="About">
+            <h2>About</h2>
+            <p>
+                I am a Computer Science student at American International University-Bangladesh (AIUB),
+                passionate about web development,Machine Learning.
+            </p>
+        </section>
+
+       
+        <section id="education">
+            <h2>Education</h2>
+
+            <table border="1">
+                <caption>Academic Qualifications</caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Degree</th>
+                        <th scope="col">Institution</th>
+                        <th scope="col">Year</th>
+                        <th scope="col">Result</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>BSc in Computer Science</td>
+                        <td>AIUB</td>
+                        <td>2023 - Present</td>
+                        <td>CGPA 3.5</td>
+                    </tr>
+
+                    <tr>
+                        <td>Higher Secondary Certificate</td>
+                        <td>BN College,Ctg</td>
+                        <td>2022</td>
+                        <td>GPA 5.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Secondary School Certificate</td>
+                        <td>BN School and College,Ctg</td>
+                        <td>2020</td>
+                        <td>GPA 5.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Contact Section -->
+        <fieldset>
+            <legend><h3>Contact Me</h3></legend>
+            <section id="contact">
+          
+
+            <form action="#" method="post">
+
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required
+                       placeholder="Enter your full name"
+                       maxlength="50"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required
+                       placeholder="example@email.com"><br><br>
+
+                <label for="phone">Phone:</label><br>
+                <input type="tel" id="phone" name="phone"
+                       placeholder="01XXXXXXXXX"
+                       pattern="[0-9]{11}"><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" cols="50"
+                          required
+                          placeholder="Write your message here..."
+                          maxlength="300"></textarea><br><br>
+
+             <button type="submit">Send Message</button>
+             <button type="reset">Reset</button>
+
+
+            </form>
+        </section>
+
+        </fieldset>
+    </main>
+
+    
+    <footer>
+        <p>
+            Contact: nazmus@gmailcom <br>
+            &copy; Nazmus Sadat | AIUB
+        </p>
+    </footer>
+
+</body>
+</html>
