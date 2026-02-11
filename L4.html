@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab4</title>
+</head>
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <form action="#" method="post">
+
+        <!-- Personal Information -->
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" ><br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" ><br><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" ><br><br>
+
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" ><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" id="male" >
+            <label for="male">Male</label><br>
+
+            <input type="radio" id="female" >
+            <label for="female">Female</label><br>
+
+        </fieldset>
+
+        <br>
+
+        <!-- Academic Information -->
+        <fieldset>
+            <legend>Academic Information</legend>
+
+            <label for="department">Department:</label><br>
+            <select id="department" name="department">
+                <option value="cse">Computer Science & Engineering</option>
+                <option value="cs">Cyber Security</option>
+                <option value="eee">Electrical Engineering</option>
+                <option value="ds">Data Science</option>
+                
+            </select><br><br>
+
+            <label>Skills:</label><br>
+            <input type="checkbox" id="html" >
+            <label for="html">HTML</label><br>
+
+            <input type="checkbox" id="css" >
+            <label for="css">CSS</label><br>
+
+            <input type="checkbox" id="javascript" >
+            <label for="javascript">JavaScript</label><br>
+
+            <input type="checkbox" id="nodejs" >
+            <label for="nodejs">Node.js</label><br><br>
+        </fieldset>
+
+        <br>
+
+        
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+</body>
+</html>
