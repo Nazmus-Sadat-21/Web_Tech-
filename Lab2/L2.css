@@ -1,0 +1,85 @@
+h1, h2 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1cm;
+    color: darkblue;
+}
+
+body {
+    font-size: 16px;
+}
+
+.container {
+    width: 80%;
+    margin: 2rem auto;
+    padding: 2em;
+    background-color: #f0f0f0;
+}
+
+div p {
+    font-size: 1.2em;
+    color: green;
+}
+
+.box {
+    width: 50vw;
+    height: 30vh;
+    background-color: rgba(32, 47, 149, 0.512);
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+img{
+    height: 20vh;
+    width: 40vw;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border: 2px solid gray;
+}
+h4{
+    margin-top: 0;
+    text-align: center;
+}
+a:hover {
+    color: red;
+    font-size: 18px;
+    
+}
+
+input[type="text"]:focus {
+    border-color: blue;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(113, 143, 207, 0.797);
+}
+
+button:active {
+    background-color: rgb(5, 23, 70);
+    color: white;
+}
+
+
