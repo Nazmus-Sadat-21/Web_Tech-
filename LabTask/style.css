@@ -1,0 +1,185 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI, sans-serif;
+}
+
+body{
+
+background:linear-gradient(135deg,#667eea,#764ba2);
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+
+}
+
+.container{
+
+background:white;
+padding:30px;
+width:600px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+
+}
+
+h1{
+
+text-align:center;
+margin-bottom:20px;
+color:#333;
+
+}
+
+.form-box{
+
+display:flex;
+gap:10px;
+margin-bottom:15px;
+
+}
+
+.form-box input{
+
+flex:1;
+padding:10px;
+border-radius:6px;
+border:1px solid #ccc;
+
+}
+
+.form-box button{
+
+background:#4CAF50;
+color:white;
+border:none;
+padding:10px 15px;
+border-radius:6px;
+cursor:pointer;
+transition:0.3s;
+
+}
+
+.form-box button:hover{
+
+background:#43a047;
+
+}
+
+.controls{
+
+display:flex;
+gap:10px;
+margin-bottom:20px;
+
+}
+
+.controls input{
+
+flex:1;
+padding:10px;
+border-radius:6px;
+border:1px solid #ccc;
+
+}
+
+.controls button{
+
+background:#2196F3;
+color:white;
+border:none;
+padding:10px 15px;
+border-radius:6px;
+cursor:pointer;
+transition:0.3s;
+
+}
+
+.controls button:hover{
+
+background:#1976D2;
+
+}
+
+ul{
+
+list-style:none;
+
+}
+
+li{
+
+background:#f9f9f9;
+margin-bottom:10px;
+padding:12px;
+border-radius:8px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+transition:0.3s;
+border-left:5px solid transparent;
+
+}
+
+li:hover{
+
+transform:scale(1.02);
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+
+}
+
+.present{
+
+background:#e8f5e9;
+border-left:5px solid #4CAF50;
+
+}
+
+.highlight{
+
+border:3px solid orange;
+
+}
+
+.actions button{
+
+margin-left:5px;
+padding:6px 10px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+font-size:13px;
+
+}
+
+.actions button:nth-child(2){
+
+background:#ff9800;
+color:white;
+
+}
+
+.actions button:nth-child(3){
+
+background:#f44336;
+color:white;
+
+}
+
+.actions button:hover{
+
+opacity:0.85;
+
+}
+
+.info{
+
+margin-top:15px;
+display:flex;
+justify-content:space-between;
+font-weight:bold;
+color:#333;
+
+}
